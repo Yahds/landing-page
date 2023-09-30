@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* All */
+*{
+    font-family: Roboto;
+    padding: 0%;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    border: 2px solid red;
+    background-color: #1F2937;
+    padding: 15px 195px 0;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header .header-links{
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+header .header-links a,
+header .header-holder .desc-holder p,
+header .header-holder .desc-holder .sign-up{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header .header-holder{
+    margin: 100px 0 140px;
+    border: 2px solid red;
+    display: flex;
+}
+
+header .header-holder .desc-holder,
+header .header-holder .img-holder{
+    width: 50%;
+}
+
+header .header-holder .desc-holder h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+header .header-holder .desc-holder p{
+    padding-right: 30px;
+}
+
+header .header-holder .desc-holder .sign-up{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    color: #F9FAF8;
+    padding: 5px 30px 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+header .header-holder .img-holder {
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-holder .img-holder .img-txt{
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+
+
+
+/* Section: Information */
+section#information{
+    border: 2px solid blue;
+}
+
+/* Section: Quote */
+section#quote{
+    border: 2px solid violet;
+}
+
+/* Section: Sign-up */
+section#sign-up{
+    border: 2px solid red;
+}
+
+/* Footer */
+footer{
+    border: 2px solid green;
+}
