@@ -9,6 +9,7 @@
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 /* Header */
@@ -38,7 +39,7 @@ header .header-links{
 
 header .header-links a,
 header .header-holder .desc-holder p,
-header .header-holder .desc-holder .sign-up{
+header .header-holder .desc-holder .sign-up a{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -191,7 +192,6 @@ section#sign-up .sign-up-holder .btn-holder{
     align-self: center;
     width: 30%;
     justify-content: end;
-
 }
 
 section#sign-up .btn-holder .sign-up{
@@ -207,8 +207,20 @@ section#sign-up .btn-holder .sign-up{
     font-size: 18px; 
 }
 
+section#sign-up .btn-holder .sign-up a{
+    color: #F9FAF8;
+}
 /* Footer */
 footer{
     border: 2px solid green;
     height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+footer .copyright{
+    align-self: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
