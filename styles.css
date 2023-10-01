@@ -54,14 +54,17 @@ header .header-holder .img-holder{
     width: 50%;
 }
 
+
 header .header-holder .desc-holder h1{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    width: 80%;
 }
 
 header .header-holder .desc-holder p{
     padding-right: 30px;
+    width: 80%;
 }
 
 header .header-holder .desc-holder .sign-up{
@@ -79,6 +82,7 @@ header .header-holder .img-holder {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 250px;
 }
 
 header .header-holder .img-holder .img-txt{
