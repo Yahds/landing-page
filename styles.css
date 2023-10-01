@@ -128,12 +128,32 @@ section#information .info-holder .info .info-img-holder{
     align-self: center;
 }
 
-
-
-
 /* Section: Quote */
 section#quote{
-    border: 2px solid violet;
+    height: 410px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+section#quote .quote-holder{
+    align-self: center;
+    text-align: left;
+    width: 780px;
+}
+
+section#quote .quote-holder p{
+    font-size: 34px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+section#quote .quote-holder p:nth-child(2){
+    text-align: end;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
 }
 
 /* Section: Sign-up */
